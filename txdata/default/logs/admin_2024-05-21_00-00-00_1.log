@@ -1,0 +1,44 @@
+
+================================================================
+======== txAdmin v7.1.0 atop fxserver 8214 Starting - 5/21/2024, 11:43:32 AM
+================================================================
+[11:44:20][Wansmore_waheed] created admins file
+[11:44:42][Wansmore_waheed] Changing global settings via setup stepper and started Deployer.
+[11:44:44][Wansmore_waheed] Setting recipe.
+[11:45:12][Wansmore_waheed] Running recipe.
+[11:47:29][Wansmore_waheed] Completed and committed server deploy.
+[11:57:42][Wansmore_waheed] executed "RESTART SERVER"
+[11:59:51][Wansmore_waheed] executed "RESTART SERVER"
+
+================================================================
+======== txAdmin v7.1.0 atop fxserver 8214 Starting - 5/21/2024, 4:40:26 PM
+================================================================
+[16:42:21][Wansmore_waheed] logged in from 127.0.0.1 via cfxre
+[16:43:25][Wansmore_waheed] executed "ensure "ipdc-car-whitelist""
+[16:43:33][Wansmore_waheed] executed "ensure "ipdc-car-whitelist""
+[16:44:38][Wansmore_waheed] executed "car broncoems"
+[16:44:43][Wansmore_waheed] executed "/car broncoems"
+[16:46:20][Wansmore_waheed] executed "ensure "side_mlo""
+[16:46:50][Wansmore_waheed] executed "ensure "side_mlo""
+[16:46:50][Wansmore_waheed] executed "ensure "side_mlo""
+[16:46:50][Wansmore_waheed] executed "ensure "side_mlo""
+[16:47:10][Wansmore_waheed] executed "RESTART SERVER"
+[16:47:37][Wansmore_waheed] executed "ensure "side_mlo""
+[16:47:50][Wansmore_waheed] executed "ensure "ipdc-car-whitelist""
+[17:04:43][Wansmore_waheed] executed "RESTART SERVER"
+[17:06:11][Wansmore_waheed] executed "ensure "ipdc-car-whitelist""
+[17:06:16][Wansmore_waheed] executed "ensure "side_mlo""
+[17:07:16][Wansmore_waheed] executed "refresh"
+[17:08:32][Wansmore_waheed] executed "refresh"
+[17:09:05][Wansmore_waheed] executed "RESTART SERVER"
+[17:14:20][Wansmore_waheed] executed "RESTART SERVER"
+[17:15:56][Wansmore_waheed] executed "refresh"
+[17:15:59][Wansmore_waheed] executed "ensure "ipdc-car-whitelist""
+[17:16:02][Wansmore_waheed] executed "ensure "side_mlo""
+[17:56:44][Wansmore_waheed] executed "RESTART SERVER"
+[18:04:59][Wansmore_waheed] executed "RESTART SERVER"
+[18:54:56][Wansmore_waheed] executed "ensure "esx_vehicleshop""
+[18:55:05][Wansmore_waheed] executed "ensure "esx_vehicleshop""
+[18:55:32][Wansmore_waheed] executed "RESTART SERVER"
+[19:06:07][Wansmore_waheed] executed "RESTART SERVER"
+[19:06:20][Wansmore_waheed] executed "refresh"

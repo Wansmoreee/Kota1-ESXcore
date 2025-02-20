@@ -1,0 +1,596 @@
+
+================================================================
+======== Log Rotated - 5/22/2024, 10:41:42 AM                   
+================================================================
+
+================================================================
+======== FXServer Starting - 5/22/2024, 10:41:48 AM             
+================================================================
+[           resources] Scanning resources.
+[resources:helicopter] Warning: helicopterems does not have a resource manifest (fxmanifest.lua)
+[    resources:rs_mlo] Warning: rs_mlo does not have a resource manifest (fxmanifest.lua)
+[           resources] Found 87 resources.
+[           resources] 2 warnings were encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v7.1.0 threads and commands set up. All Ready.
+[           resources] [97mStarted resource monitor
+[    c-scripting-core] Creating script environments for yarn
+[           resources] Started resource yarn
+[    c-scripting-core] Creating script environments for webpack
+[           resources] Started resource webpack
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[           resources] Started resource bob74_ipl
+[    c-scripting-core] Creating script environments for cron
+[           resources] Started resource cron
+[    c-scripting-core] Creating script environments for es_extended
+[           resources] [0mStarted resource es_extended
+[    c-scripting-core] Creating script environments for esx_context
+[           resources] Started resource esx_context
+[    c-scripting-core] [97mCreating script environments for esx_identity
+[           resources] Started resource esx_identity
+[resources:esx_loadin] Warning: could not find client_script `client.lua` (defined in fxmanifest.lua:13)
+[           resources] Started resource esx_loadingscreens (1 warning)
+[           resources] Started resource esx_menu_default
+[           resources] Started resource esx_menu_dialog
+[           resources] Started resource esx_menu_list
+[           resources] Started resource skinchanger
+[    c-scripting-core] Creating script environments for esx_skin
+[           resources] Started resource esx_skin
+[    c-scripting-core] Creating script environments for esx_multicharacter
+[           resources] Started resource esx_multicharacter
+[    c-scripting-core] Creating script environments for esx_notify
+[           resources] Started resource esx_notify
+[    c-scripting-core] [0mCreating script environments for esx_progressbar
+[           resources] Started resource esx_progressbar
+[    c-scripting-core] Creating script environments for esx_textui
+[           resources] Started resource esx_textui
+[    c-scripting-core] Creating script environments for pma-voice
+[           resources] Started resource pma-voice
+[    c-scripting-core] Creating script environments for esx_datastore
+[           resources] Started resource esx_datastore
+[    c-scripting-core] Creating script environments for esx_accessories
+[           resources] Started resource esx_accessories
+[    c-scripting-core] Creating script environments for esx_addonaccount
+[           resources] Started resource esx_addonaccount
+[    c-scripting-core] Creating script environments for esx_addoninventory
+[           resources] Started resource esx_addoninventory
+[    c-scripting-core] Creating script environments for esx_vehicleshop
+[           resources] Started resource esx_vehicleshop
+[    c-scripting-core] Creating script environments for esx_ambulancejob
+[           resources] Started resource esx_ambulancejob
+[           resources] Started resource esx_animations
+[    c-scripting-core] Creating script environments for esx_banking
+[           resources] Started resource esx_banking
+[    c-scripting-core] Creating script environments for esx_barbershop
+[           resources] Started resource esx_barbershop
+[    c-scripting-core] Creating script environments for esx_status
+[           resources] Started resource esx_status
+[    c-scripting-core] Creating script environments for esx_basicneeds
+[           resources] Started resource esx_basicneeds
+[    c-scripting-core] Creating script environments for esx_billing
+[           resources] Started resource esx_billing
+[    c-scripting-core] Creating script environments for esx_boat
+[           resources] Started resource esx_boat
+[    c-scripting-core] Creating script environments for esx_clotheshop
+[           resources] Started resource esx_clotheshop
+[           resources] Started resource esx_cruisecontrol
+[    c-scripting-core] Creating script environments for esx_license
+[           resources] Started resource esx_license
+[    c-scripting-core] Creating script environments for esx_dmvschool
+[           resources] Started resource esx_dmvschool
+[    c-scripting-core] Creating script environments for esx_drugs
+[           resources] Started resource esx_drugs
+[    c-scripting-core] Creating script environments for esx_garage
+[           resources] Started resource esx_garage
+[    c-scripting-core] Creating script environments for esx_hud
+[           resources] [0mStarted resource esx_hud
+[    c-scripting-core] Creating script environments for esx_joblisting
+[           resources] Started resource esx_joblisting
+[    c-scripting-core] Creating script environments for esx_jobs
+[           resources] Started resource esx_jobs
+[    c-scripting-core] Creating script environments for esx_lscustom
+[           resources] Started resource esx_lscustom
+[    c-scripting-core] Creating script environments for esx_society
+[           resources] Started resource esx_society
+[    c-scripting-core] Creating script environments for esx_mechanicjob
+[           resources] Started resource esx_mechanicjob
+[    c-scripting-core] Creating script environments for esx_optionalneeds
+[           resources] Started resource esx_optionalneeds
+[    c-scripting-core] Creating script environments for esx_policejob
+[           resources] Started resource esx_policejob
+[    c-scripting-core] Creating script environments for esx_property
+[           resources] Started resource esx_property
+[    c-scripting-core] Creating script environments for esx_rpchat
+[           resources] Started resource esx_rpchat
+[    c-scripting-core] [0mCreating script environments for esx_service
+[           resources] Started resource esx_service
+[    c-scripting-core] Creating script environments for esx_shops
+[           resources] Started resource esx_shops
+[    c-scripting-core] [0mCreating script environments for esx_sit
+[           resources] Started resource esx_sit
+[    c-scripting-core] Creating script environments for esx_taxijob
+[           resources] Started resource esx_taxijob
+[    c-scripting-core] Creating script environments for esx_weaponshop
+[           resources] Started resource esx_weaponshop
+[  resources:idpc-car] Warning: could not find client_script `vehicle_names.lua` (defined in __resource.lua:4)
+[resources:idpc-car:s] Asset idpc-car/190asap.ytd uses 42.0 MiB of physical memory.
+[resources:idpc-car:s] Asset idpc-car/21lm300.yft uses 18.2 MiB of virtual memory.
+[resources:idpc-car:s] Asset idpc-car/21lm300.ytd uses 16.9 MiB of physical memory.
+[resources:idpc-car:s] Asset idpc-car/21lm300_hi.yft uses 18.2 MiB of virtual memory.
+[resources:idpc-car:s] Asset idpc-car/bnr34.ytd uses 137.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-car:s] Asset idpc-car/bnr34_hi.yft uses 17.4 MiB of virtual memory.
+[resources:idpc-car:s] [0mAsset idpc-car/bnr34_livery_2.yft uses 32.0 MiB of physical memory.
+[resources:idpc-car:s] Asset idpc-car/bnr34_livery_3.yft uses 32.0 MiB of physical memory.
+[resources:idpc-car:s] Asset idpc-car/bnr34_livery_4.yft uses 32.0 MiB of physical memory.
+[resources:idpc-car:s] Asset idpc-car/bnr34_livery_5.yft uses 32.0 MiB of physical memory.
+[resources:idpc-car:s] Asset idpc-car/bnr34_livery_6.yft uses 32.0 MiB of physical memory.
+[resources:idpc-car:s] Asset idpc-car/bnr34_livery_7.yft uses 32.0 MiB of physical memory.
+[resources:idpc-car:s] Asset idpc-car/bnr34_livery_8.yft uses 32.0 MiB of physical memory.
+[resources:idpc-car:s] Asset idpc-car/cat_car.ytd uses 29.0 MiB of physical memory.
+[resources:idpc-car:s] Asset idpc-car/drehellcatcharger.yft uses 23.8 MiB of virtual memory.
+[resources:idpc-car:s] Asset idpc-car/drehellcatcharger.ytd uses 44.0 MiB of physical memory.
+[resources:idpc-car:s] Asset idpc-car/drehellcatcharger_hi.yft uses 23.8 MiB of virtual memory.
+[resources:idpc-car:s] Asset idpc-car/freeboghoulhawk.yft uses 22.2 MiB of virtual memory.
+[resources:idpc-car:s] Asset idpc-car/freeboghoulhawk.ytd uses 54.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-car:s] Asset idpc-car/freeboghoulhawk_hi.yft uses 22.2 MiB of virtual memory.
+[resources:idpc-car:s] Asset idpc-car/gladiator.yft uses 27.7 MiB of virtual memory.
+[resources:idpc-car:s] Asset idpc-car/gladiator.ytd uses 40.0 MiB of physical memory.
+[resources:idpc-car:s] Asset idpc-car/gladiator_hi.yft uses 23.5 MiB of virtual memory.
+[resources:idpc-car:s] Asset idpc-car/gtrpit.ytd uses 18.5 MiB of physical memory.
+[resources:idpc-car:s] Asset idpc-car/gtrpit_seat_1.yft uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-car:s] Asset idpc-car/gtrpit_steering_1.yft uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-car:s] Asset idpc-car/gtz34.yft uses 32.5 MiB of virtual memory.
+[resources:idpc-car:s] Asset idpc-car/gtz34.ytd uses 166.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-car:s] Asset idpc-car/gtz34_hi.yft uses 32.5 MiB of virtual memory.
+[resources:idpc-car:s] Asset idpc-car/hycaderx7.ytd uses 68.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-car:s] Asset idpc-car/lp770.ytd uses 37.5 MiB of physical memory.
+[resources:idpc-car:s] Asset idpc-car/lwscir.ytd uses 25.0 MiB of physical memory.
+[resources:idpc-car:s] Asset idpc-car/m3e46.ytd uses 30.5 MiB of physical memory.
+[resources:idpc-car:s] Asset idpc-car/m4cg83.yft uses 21.6 MiB of virtual memory.
+[resources:idpc-car:s] Asset idpc-car/m4cg83.ytd uses 37.0 MiB of physical memory.
+[resources:idpc-car:s] Asset idpc-car/m4cg83_hi.yft uses 21.6 MiB of virtual memory.
+[resources:idpc-car:s] Asset idpc-car/mustangmach1.ytd uses 60.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-car:s] Asset idpc-car/perfTTNC.yft uses 27.2 MiB of virtual memory.
+[resources:idpc-car:s] Asset idpc-car/perfTTNC.ytd uses 23.5 MiB of physical memory.
+[resources:idpc-car:s] Asset idpc-car/perfTTNC_hi.yft uses 27.2 MiB of virtual memory.
+[resources:idpc-car:s] Asset idpc-car/ph8oribe.yft uses 28.8 MiB of virtual memory.
+[resources:idpc-car:s] Asset idpc-car/ph8oribe.ytd uses 100.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-car:s] Asset idpc-car/ph8oribe_1.ytd uses 70.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-car:s] Asset idpc-car/ph8oribe_hi.yft uses 28.8 MiB of virtual memory.
+[resources:idpc-car:s] Asset idpc-car/pika01.ytd uses 23.2 MiB of physical memory.
+[resources:idpc-car:s] Asset idpc-car/r8cgt4street.yft uses 30.5 MiB of virtual memory.
+[resources:idpc-car:s] Asset idpc-car/r8cgt4street.ytd uses 82.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-car:s] Asset idpc-car/r8cgt4street_hi.yft uses 30.5 MiB of virtual memory.
+[resources:idpc-car:s] Asset idpc-car/rmoddarki8.ytd uses 52.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-car:s] Asset idpc-car/rmoddarki82.yft uses 16.5 MiB of virtual memory.
+[resources:idpc-car:s] Asset idpc-car/rmoddarki82.ytd uses 29.0 MiB of physical memory.
+[resources:idpc-car:s] Asset idpc-car/rmodz350pandem.yft uses 17.9 MiB of virtual memory.
+[resources:idpc-car:s] Asset idpc-car/rmodz350pandem.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-car:s] Asset idpc-car/rmodzl1.yft uses 17.3 MiB of virtual memory.
+[resources:idpc-car:s] Asset idpc-car/rmodzl1.ytd uses 20.8 MiB of physical memory.
+[resources:idpc-car:s] Asset idpc-car/rs7mans.yft uses 31.1 MiB of virtual memory.
+[resources:idpc-car:s] Asset idpc-car/rs7mans.ytd uses 82.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-car:s] Asset idpc-car/rs7mans_hi.yft uses 31.1 MiB of virtual memory.
+[resources:idpc-car:s] Asset idpc-car/rx7veilside.yft uses 16.4 MiB of virtual memory.
+[resources:idpc-car:s] Asset idpc-car/rx7veilside.ytd uses 34.0 MiB of physical memory.
+[resources:idpc-car:s] Asset idpc-car/silviajdm.yft uses 19.0 MiB of virtual memory.
+[resources:idpc-car:s] Asset idpc-car/silviajdm.ytd uses 192.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-car:s] Asset idpc-car/silviajdm_hi.yft uses 19.0 MiB of virtual memory.
+[resources:idpc-car:s] Asset idpc-car/speed.yft uses 24.2 MiB of virtual memory.
+[resources:idpc-car:s] Asset idpc-car/speed.ytd uses 52.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-car:s] Asset idpc-car/speed_hi.yft uses 24.2 MiB of virtual memory.
+[resources:idpc-car:s] Asset idpc-car/supra2.yft uses 22.8 MiB of virtual memory.
+[resources:idpc-car:s] Asset idpc-car/supra2.ytd uses 22.0 MiB of physical memory.
+[resources:idpc-car:s] Asset idpc-car/supra2_hi.yft uses 22.8 MiB of virtual memory.
+[resources:idpc-car:s] Asset idpc-car/titanh2.yft uses 29.2 MiB of virtual memory.
+[38;5;126m[resources:idpc-car:s] Asset idpc-car/titanh2_hi.yft uses 29.2 MiB of virtual memory.
+[resources:idpc-car:s] Asset idpc-car/z4alchemist.yft uses 27.0 MiB of virtual memory.
+[resources:idpc-car:s] Asset idpc-car/z4alchemist.ytd uses 22.5 MiB of physical memory.
+[resources:idpc-car:s] Asset idpc-car/z4alchemist_hi.yft uses 27.0 MiB of virtual memory.
+[           resources] Started resource idpc-car (75 warnings)
+[resources:idpc-car-l] Warning: could not find client_script `vehicle_names.lua` (defined in __resource.lua:4)
+[resources:idpc-car-l] Asset idpc-car-limited/GODz95GSX.yft uses 17.2 MiB of virtual memory.
+[resources:idpc-car-l] Asset idpc-car-limited/GODz95GSX.ytd uses 76.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-car-l] Asset idpc-car-limited/GODz95GSX_arch_1a.yft uses 25.1 MiB of virtual memory.
+[resources:idpc-car-l] Asset idpc-car-limited/GODz95GSX_hi.yft uses 17.2 MiB of virtual memory.
+[resources:idpc-car-l] Asset idpc-car-limited/ZL1Hycade.yft uses 21.6 MiB of virtual memory.
+[resources:idpc-car-l] Asset idpc-car-limited/ZL1Hycade.ytd uses 46.5 MiB of physical memory.
+[resources:idpc-car-l] Asset idpc-car-limited/ZL1Hycade_hi.yft uses 21.6 MiB of virtual memory.
+[resources:idpc-car-l] Asset idpc-car-limited/bmwg20.yft uses 23.0 MiB of virtual memory.
+[resources:idpc-car-l] Asset idpc-car-limited/bmwg20.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-car-l] Asset idpc-car-limited/bmwg20_hi.yft uses 23.0 MiB of virtual memory.
+[resources:idpc-car-l] Asset idpc-car-limited/brz13varis_livery.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-car-l] Asset idpc-car-limited/evo9sadam.ytd uses 104.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-car-l] Asset idpc-car-limited/gt86.ytd uses 206.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[38;5;212m[resources:idpc-car-l] Asset idpc-car-limited/gtrsilhouette.yft uses 20.2 MiB of virtual memory.
+[resources:idpc-car-l] Asset idpc-car-limited/gtrsilhouette.ytd uses 148.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-car-l] Asset idpc-car-limited/gtrsilhouette2.yft uses 20.2 MiB of virtual memory.
+[resources:idpc-car-l] Asset idpc-car-limited/gtrsilhouette2.ytd uses 148.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-car-l] Asset idpc-car-limited/gtrsilhouette2_hi.yft uses 20.2 MiB of virtual memory.
+[resources:idpc-car-l] Asset idpc-car-limited/gtrsilhouette_hi.yft uses 20.2 MiB of virtual memory.
+[resources:idpc-car-l] Asset idpc-car-limited/hs2000.ytd uses 134.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-car-l] Asset idpc-car-limited/keiskyline34.yft uses 23.4 MiB of virtual memory.
+[resources:idpc-car-l] Asset idpc-car-limited/keiskyline34.ytd uses 96.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-car-l] Asset idpc-car-limited/keiskyline34_hi.yft uses 23.4 MiB of virtual memory.
+[resources:idpc-car-l] Asset idpc-car-limited/m3mafia.yft uses 29.4 MiB of virtual memory.
+[resources:idpc-car-l] Asset idpc-car-limited/m3mafia.ytd uses 45.0 MiB of physical memory.
+[resources:idpc-car-l] Asset idpc-car-limited/m3mafia_hi.yft uses 29.4 MiB of virtual memory.
+[resources:idpc-car-l] Asset idpc-car-limited/mdshirokai.yft uses 29.0 MiB of virtual memory.
+[resources:idpc-car-l] Asset idpc-car-limited/mdshirokai.ytd uses 44.8 MiB of physical memory.
+[resources:idpc-car-l] Asset idpc-car-limited/mdshirokai_hi.yft uses 28.8 MiB of virtual memory.
+[resources:idpc-car-l] Asset idpc-car-limited/pistahycade.yft uses 20.5 MiB of virtual memory.
+[resources:idpc-car-l] Asset idpc-car-limited/pistahycade.ytd uses 88.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-car-l] Asset idpc-car-limited/pistahycade_hi.yft uses 20.5 MiB of virtual memory.
+[resources:idpc-car-l] Asset idpc-car-limited/pistapurr.yft uses 21.8 MiB of virtual memory.
+[resources:idpc-car-l] Asset idpc-car-limited/pistapurr.ytd uses 105.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-car-l] Asset idpc-car-limited/pistapurr_hi.yft uses 21.8 MiB of virtual memory.
+[resources:idpc-car-l] Asset idpc-car-limited/r8hycade.yft uses 18.1 MiB of virtual memory.
+[resources:idpc-car-l] Asset idpc-car-limited/r8hycade.ytd uses 56.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-car-l] Asset idpc-car-limited/r8hycade_hi.yft uses 18.1 MiB of virtual memory.
+[resources:idpc-car-l] Asset idpc-car-limited/rmodskyline34.yft uses 20.1 MiB of virtual memory.
+[resources:idpc-car-l] Asset idpc-car-limited/rmodskyline34.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-car-l] Asset idpc-car-limited/rmodskyline34_hi.bak uses 18.9 MiB of virtual memory.
+[resources:idpc-car-l] Asset idpc-car-limited/rmodskyline34_hi.yft uses 19.5 MiB of virtual memory.
+[resources:idpc-car-l] Asset idpc-car-limited/rmodskyline34v2.yft uses 18.5 MiB of virtual memory.
+[resources:idpc-car-l] Asset idpc-car-limited/rmodskyline34v2_hi.yft uses 18.5 MiB of virtual memory.
+[resources:idpc-car-l] Asset idpc-car-limited/variskbrz.yft uses 17.6 MiB of virtual memory.
+[resources:idpc-car-l] Asset idpc-car-limited/variskbrz.ytd uses 58.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-car-l] Asset idpc-car-limited/variskbrz_hi.yft uses 17.6 MiB of virtual memory.
+[resources:idpc-car-l] Asset idpc-car-limited/wrxdapit.yft uses 25.1 MiB of virtual memory.
+[resources:idpc-car-l] Asset idpc-car-limited/wrxdapit.ytd uses 18.0 MiB of physical memory.
+[resources:idpc-car-l] Asset idpc-car-limited/wrxdapit_hi.yft uses 25.1 MiB of virtual memory.
+[resources:idpc-car-l] Asset idpc-car-limited/zlay_gtz2077.yft uses 30.5 MiB of virtual memory.
+[resources:idpc-car-l] Asset idpc-car-limited/zlay_gtz2077.ytd uses 68.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-car-l] Asset idpc-car-limited/zlay_gtz2077_hi.yft uses 30.5 MiB of virtual memory.
+[resources:idpc-car-l] Asset idpc-car-limited/zn20.ytd uses 37.0 MiB of physical memory.
+[           resources] Started resource idpc-car-limited (55 warnings)
+> txaReportResources
+[resources:idpc-luxur] Warning: could not find client_script `vehicle_names.lua` (defined in __resource.lua:4)
+[resources:idpc-luxur] Asset idpc-luxury-car/4rune.yft uses 26.8 MiB of virtual memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/4rune.ytd uses 46.0 MiB of physical memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/4rune_hi.yft uses 26.8 MiB of virtual memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/66fastback.ytd uses 34.5 MiB of physical memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/66fastback_livery1.yft uses 32.0 MiB of physical memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/79cap.ytd uses 28.5 MiB of physical memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/aeroxark.yft uses 16.6 MiB of virtual memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/aeroxark.ytd uses 23.0 MiB of physical memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/aeroxark_hi.yft uses 16.6 MiB of virtual memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/beatkarbu.yft uses 17.2 MiB of virtual memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/beatkarbu.ytd uses 76.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-luxur] Asset idpc-luxury-car/beatkarbu_hi.yft uses 17.2 MiB of virtual memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/bolide.ytd uses 55.5 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-luxur] Asset idpc-luxury-car/btsupra94.yft uses 32.0 MiB of virtual memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/btsupra94.ytd uses 94.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-luxur] Asset idpc-luxury-car/btsupra94_hi.yft uses 32.0 MiB of virtual memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/casup.yft uses 20.5 MiB of virtual memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/casup.ytd uses 24.0 MiB of physical memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/casup_hi.yft uses 20.5 MiB of virtual memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/er34.ytd uses 56.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-luxur] Asset idpc-luxury-car/fatboy.yft uses 17.2 MiB of virtual memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/fk8.ytd uses 41.0 MiB of physical memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/flhxs_streetglide_special18.yft uses 22.5 MiB of virtual memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/flhxs_streetglide_special18.ytd uses 42.0 MiB of physical memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/flhxs_streetglide_special18_hi.yft uses 22.5 MiB of virtual memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/gsts6502.ytd uses 40.0 MiB of physical memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/harleyknucklehead.yft uses 20.5 MiB of virtual memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/hna2t.yft uses 29.4 MiB of virtual memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/hna2t.ytd uses 66.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-luxur] Asset idpc-luxury-car/hna2t_hi.yft uses 29.4 MiB of virtual memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/hondabeat.ytd uses 80.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-luxur] Asset idpc-luxury-car/hondagenio.ytd uses 24.0 MiB of physical memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/hycadegtr.yft uses 18.2 MiB of virtual memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/hycadegtr.ytd uses 70.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-luxur] Asset idpc-luxury-car/hycadegtr_hi.yft uses 18.2 MiB of virtual memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/innova21mg.yft uses 28.0 MiB of virtual memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/innova21mg_hi.yft uses 28.0 MiB of virtual memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/jetbus+hi.ytd uses 35.8 MiB of physical memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/jetbus.ytd uses 35.8 MiB of physical memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/mansamgt21+hi.ytd uses 20.2 MiB of physical memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/mansamgt21.yft uses 21.1 MiB of virtual memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/mansamgt21.ytd uses 20.2 MiB of physical memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/mansamgt21_hi.yft uses 21.1 MiB of virtual memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/mx5nd.ytd uses 40.0 MiB of physical memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/nmaxrr.ytd uses 62.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-luxur] Asset idpc-luxury-car/oyclc500.yft uses 30.4 MiB of virtual memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/oyclc500.ytd uses 138.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-luxur] Asset idpc-luxury-car/oyclc500_arch_1a.yft uses 23.5 MiB of virtual memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/oyclc500_arch_1b.yft uses 30.8 MiB of virtual memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/oyclc500_arch_1c.yft uses 23.0 MiB of virtual memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/oyclc500_arch_1d.yft uses 16.2 MiB of virtual memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/oyclc500_hi.yft uses 30.4 MiB of virtual memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/plutotransamdrop.yft uses 29.5 MiB of virtual memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/plutotransamdrop.ytd uses 35.5 MiB of physical memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/plutotransamdrop_hi.yft uses 29.5 MiB of virtual memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/rmodm4gts.yft uses 22.4 MiB of virtual memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/rmodm4gts.ytd uses 28.0 MiB of physical memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/rmodm4gts_hi.yft uses 20.5 MiB of virtual memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/rxkingse.ytd uses 21.2 MiB of physical memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/s15.ytd uses 36.0 MiB of physical memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/topsecretsupra.yft uses 28.2 MiB of virtual memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/topsecretsupra.ytd uses 23.5 MiB of physical memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/topsecretsupra_hi.yft uses 28.2 MiB of virtual memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/twincamcrazy.ytd uses 20.0 MiB of physical memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/urusperf23.yft uses 25.2 MiB of virtual memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/urusperf23.ytd uses 81.5 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-luxur] Asset idpc-luxury-car/urusperf23_hi.yft uses 16.6 MiB of virtual memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/vantagespeedhunter.yft uses 19.8 MiB of virtual memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/vantagespeedhunter_hi.yft uses 19.8 MiB of virtual memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/vespa1.yft uses 21.8 MiB of virtual memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/vespa1.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/vespa1_hi.yft uses 21.8 MiB of virtual memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/vic11.yft uses 22.5 MiB of virtual memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/vic11.ytd uses 92.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-luxur] Asset idpc-luxury-car/vic11_hi.yft uses 22.5 MiB of virtual memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/wheel_bolide_w1.ydr uses 32.0 MiB of physical memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/wheel_bolide_w2.ydr uses 24.0 MiB of physical memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/wheel_bolide_w3.ydr uses 32.0 MiB of physical memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/wheel_bolide_w4.ydr uses 28.0 MiB of physical memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/wheel_musc_01.ydr uses 40.0 MiB of physical memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/wheel_musc_01w.ydr uses 24.0 MiB of physical memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/wraithb.yft uses 17.2 MiB of virtual memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/wraithb.ytd uses 85.5 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-luxur] Asset idpc-luxury-car/wraithb_hi.yft uses 17.2 MiB of virtual memory.
+[resources:idpc-luxur] Asset idpc-luxury-car/wrx19.ytd uses 24.0 MiB of physical memory.
+[           resources] Started resource idpc-luxury-car (86 warnings)
+[resources:idpc-one-n] Warning: could not find client_script `vehicle_names.lua` (defined in __resource.lua:4)
+[resources:idpc-one-n] Asset idpc-one-n-only/GT500TDB.yft uses 16.5 MiB of virtual memory.
+[resources:idpc-one-n] Asset idpc-one-n-only/GT500TDB.ytd uses 50.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-one-n] Asset idpc-one-n-only/GT500TDB_hi.yft uses 16.5 MiB of virtual memory.
+[38;5;184m[resources:idpc-one-n] Asset idpc-one-n-only/MazdaRX-8.ytd uses 72.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-one-n] Asset idpc-one-n-only/ToraKSCountachV2.ytd uses 80.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-one-n] [94mAsset idpc-one-n-only/bmwm8.yft uses 30.2 MiB of virtual memory.
+[resources:idpc-one-n] Asset idpc-one-n-only/bmwm8.ytd uses 120.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-one-n] Asset idpc-one-n-only/bmwm8_hi.yft uses 30.2 MiB of virtual memory.
+[resources:idpc-one-n] Asset idpc-one-n-only/brz13varis.yft uses 16.2 MiB of virtual memory.
+[resources:idpc-one-n] Asset idpc-one-n-only/brz13varis.ytd uses 65.5 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-one-n] Asset idpc-one-n-only/brz13varis_hi.yft uses 16.2 MiB of virtual memory.
+[resources:idpc-one-n] Asset idpc-one-n-only/brz13varis_livery.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-one-n] Asset idpc-one-n-only/brzrbv3.yft uses 16.8 MiB of virtual memory.
+[resources:idpc-one-n] Asset idpc-one-n-only/brzrbv3.ytd uses 42.0 MiB of physical memory.
+[resources:idpc-one-n] Asset idpc-one-n-only/brzrbv3_hi.yft uses 16.8 MiB of virtual memory.
+[resources:idpc-one-n] Asset idpc-one-n-only/gs1.yft uses 32.2 MiB of virtual memory.
+[resources:idpc-one-n] Asset idpc-one-n-only/gs1.ytd uses 196.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-one-n] Asset idpc-one-n-only/gs1_corpo.yft uses 21.0 MiB of virtual memory.
+[resources:idpc-one-n] Asset idpc-one-n-only/gs1_hi.yft uses 32.2 MiB of virtual memory.
+[resources:idpc-one-n] Asset idpc-one-n-only/gs1_itens1.yft uses 18.0 MiB of virtual memory.
+[resources:idpc-one-n] Asset idpc-one-n-only/gt3hycade.yft uses 23.8 MiB of virtual memory.
+[resources:idpc-one-n] Asset idpc-one-n-only/gt3hycade.ytd uses 150.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-one-n] Asset idpc-one-n-only/gt3hycade_hi.yft uses 23.8 MiB of virtual memory.
+[resources:idpc-one-n] Asset idpc-one-n-only/gxap3.ytd uses 128.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-one-n] Asset idpc-one-n-only/hurperslw.yft uses 23.0 MiB of virtual memory.
+[resources:idpc-one-n] Asset idpc-one-n-only/hurperslw.ytd uses 30.0 MiB of physical memory.
+[resources:idpc-one-n] Asset idpc-one-n-only/hurperslw_hi.yft uses 23.0 MiB of virtual memory.
+[resources:idpc-one-n] Asset idpc-one-n-only/hyclambo.yft uses 32.2 MiB of virtual memory.
+[resources:idpc-one-n] Asset idpc-one-n-only/hyclambo.ytd uses 148.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-one-n] Asset idpc-one-n-only/hyclambo_hi.yft uses 32.2 MiB of virtual memory.
+[resources:idpc-one-n] Asset idpc-one-n-only/jesko.yft uses 22.2 MiB of virtual memory.
+[resources:idpc-one-n] Asset idpc-one-n-only/jesko.ytd uses 176.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-one-n] Asset idpc-one-n-only/jesko_hi.yft uses 22.2 MiB of virtual memory.
+[resources:idpc-one-n] Asset idpc-one-n-only/lamborghinisian.yft uses 17.2 MiB of virtual memory.
+[resources:idpc-one-n] Asset idpc-one-n-only/lamborghinisian.ytd uses 25.5 MiB of physical memory.
+[resources:idpc-one-n] Asset idpc-one-n-only/lamborghinisian_hi.yft uses 17.2 MiB of virtual memory.
+[resources:idpc-one-n] Asset idpc-one-n-only/mansc8.yft uses 16.8 MiB of virtual memory.
+[resources:idpc-one-n] Asset idpc-one-n-only/mansc8.ytd uses 138.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-one-n] Asset idpc-one-n-only/mansc8_hi.yft uses 16.8 MiB of virtual memory.
+[resources:idpc-one-n] Asset idpc-one-n-only/r33.ytd uses 202.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-one-n] Asset idpc-one-n-only/r35inskie.yft uses 32.0 MiB of virtual memory.
+[resources:idpc-one-n] Asset idpc-one-n-only/r35inskie.ytd uses 196.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-one-n] Asset idpc-one-n-only/r35inskie_hi.yft uses 32.0 MiB of virtual memory.
+[resources:idpc-one-n] Asset idpc-one-n-only/rx8dy.ytd uses 58.5 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-one-n] Asset idpc-one-n-only/topfoil.ytd uses 51.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-one-n] Asset idpc-one-n-only/xre2020.yft uses 30.0 MiB of virtual memory.
+[resources:idpc-one-n] Asset idpc-one-n-only/xre2020.ytd uses 48.0 MiB of physical memory.
+[resources:idpc-one-n] Asset idpc-one-n-only/xre2020_hi.yft uses 30.0 MiB of virtual memory.
+[resources:idpc-one-n] Asset idpc-one-n-only/xre2020_race.yft uses 28.0 MiB of virtual memory.
+[resources:idpc-one-n] Asset idpc-one-n-only/z15dragon.yft uses 22.0 MiB of virtual memory.
+[resources:idpc-one-n] Asset idpc-one-n-only/z15dragon.ytd uses 120.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-one-n] Asset idpc-one-n-only/z15dragon_hi.yft uses 22.0 MiB of virtual memory.
+[resources:idpc-one-n] Asset idpc-one-n-only/z400wide.yft uses 27.0 MiB of virtual memory.
+[resources:idpc-one-n] Asset idpc-one-n-only/z400wide.ytd uses 96.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-one-n] Asset idpc-one-n-only/z400wide_hi.yft uses 27.0 MiB of virtual memory.
+[           resources] Started resource idpc-one-n-only (56 warnings)
+> txaReportResources
+> txaReportResources
+[resources:idpc-ped:s] Asset idpc-ped/christin.ytd uses 78.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-ped:s] Asset idpc-ped/djs_nothing1^jbib_diff_006_n_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/djs_nothing^accs_diff_003_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/djs_nothing^accs_diff_004_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/djs_nothing^accs_diff_004_b_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/djs_nothing^accs_diff_004_c_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/djs_nothing^feet_003_u.ydd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/djs_nothing^feet_005_u.ydd uses 40.0 MiB of virtual memory.
+[resources:idpc-ped:s] Asset idpc-ped/djs_nothing^feet_diff_002_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-ped:s] Asset idpc-ped/djs_nothing^feet_diff_003_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-ped:s] Asset idpc-ped/djs_nothing^feet_diff_004_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/djs_nothing^feet_diff_004_b_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/djs_nothing^jbib_001_u.ydd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/djs_nothing^jbib_diff_001_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/djs_nothing^jbib_diff_001_b_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/djs_nothing^jbib_diff_001_c_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/djs_nothing^jbib_diff_001_d_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/djs_nothing^jbib_diff_002_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/djs_nothing^jbib_diff_003_a_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;147m[resources:idpc-ped:s] Asset idpc-ped/djs_nothing^jbib_diff_003_b_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/djs_nothing^jbib_diff_005_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/djs_nothing^jbib_diff_005_b_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/djs_nothing^jbib_diff_006_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/djs_nothing^jbib_diff_006_b_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/djs_nothing^jbib_diff_006_c_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/djs_nothing^jbib_diff_006_d_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/djs_nothing^jbib_diff_006_e_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/djs_nothing^jbib_diff_006_f_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/djs_nothing^jbib_diff_006_g_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/djs_nothing^jbib_diff_006_h_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/djs_nothing^jbib_diff_006_i_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/djs_nothing^jbib_diff_006_j_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/djs_nothing^jbib_diff_006_k_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/djs_nothing^jbib_diff_006_l_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/djs_nothing^jbib_diff_006_m_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/djs_nothing^jbib_diff_006_o_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/djs_nothing^jbib_diff_006_p_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/djs_nothing^jbib_diff_006_q_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/djs_nothing^jbib_diff_006_r_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/djs_nothing^jbib_diff_006_s_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/djs_nothing^lowr_001_u.ydd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/djs_nothing^lowr_003_u.ydd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/djs_nothing^lowr_003_u.ydd uses 32.0 MiB of virtual memory.
+[resources:idpc-ped:s] Asset idpc-ped/djs_nothing^lowr_diff_001_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/djs_nothing^p_eyes_001.ydd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/djs_nothing^p_eyes_diff_001_a.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/djs_nothing^teef_002_u.ydd uses 51.5 MiB of virtual memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-ped:s] Asset idpc-ped/djs_nothing^teef_003_u.ydd uses 68.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-ped:s] Asset idpc-ped/ig_kaizen^berd_diff_004_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-ped:s] Asset idpc-ped/ig_kaizen^feet_003_u.ydd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/ig_kaizen^hand_001_u.ydd uses 56.0 MiB of virtual memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-ped:s] Asset idpc-ped/ig_kaizen^jbib_diff_001_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/ig_kaizen^jbib_diff_001_b_uni.ytd uses 32.0 MiB of physical memory.
+[38;5;147m[resources:idpc-ped:s] Asset idpc-ped/ig_kaizen^jbib_diff_001_c_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/ig_kaizen^jbib_diff_001_d_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/ig_kaizen^jbib_diff_001_e_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/ig_kaizen^jbib_diff_001_f_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/ig_kaizen^jbib_diff_001_g_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/ig_kaizen^jbib_diff_001_h_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/ig_kaizen_02^feet_001_u.ydd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/ig_kaizen_02^feet_003_u.ydd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/ig_kaizen_02^feet_diff_001_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/ig_kaizen_02^feet_diff_001_b_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/ig_kaizen_02^feet_diff_001_c_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/ig_kaizen_02^feet_diff_001_e_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/ig_kaizen_02^hand_001_u.ydd uses 56.0 MiB of virtual memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-ped:s] Asset idpc-ped/ig_kaizen_02^jbib_001_u.ydd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/ig_kaizen_02^jbib_diff_001_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] [94mAsset idpc-ped/ig_kaizen_02^jbib_diff_001_b_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/ig_kaizen_02^jbib_diff_001_c_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/ig_kaizen_02^jbib_diff_001_d_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/ig_kaizen_02^jbib_diff_001_e_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/ig_kaizen_02^jbib_diff_001_f_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/ig_kaizen_02^jbib_diff_001_g_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/ig_kaizen_02^jbib_diff_001_h_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/ig_kaizen_02^lowr_diff_001_a_uni.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/ig_kaizen_p^p_eyes_000.ydd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/ig_kaizen_p^p_eyes_001.ydd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/ig_kaizen_p^p_eyes_diff_000_a.ytd uses 32.0 MiB of physical memory.
+[resources:idpc-ped:s] Asset idpc-ped/ig_kaizen_p^p_eyes_diff_001_a.ytd uses 32.0 MiB of physical memory.
+[           resources] Started resource idpc-ped (80 warnings)
+[resources:idpc-rimsm] Asset idpc-rimsmods/wheel_spor_agt1.ydr uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-rimsm] Asset idpc-rimsmods/wheel_spor_agt2.ydr uses 32.0 MiB of physical memory.
+[resources:idpc-rimsm] Asset idpc-rimsmods/wheel_spor_ete1.ydr uses 32.0 MiB of physical memory.
+[resources:idpc-rimsm] Asset idpc-rimsmods/wheel_spor_fm.ydr uses 32.0 MiB of physical memory.
+[resources:idpc-rimsm] Asset idpc-rimsmods/wheel_spor_gx1.ydr uses 20.0 MiB of physical memory.
+[resources:idpc-rimsm] Asset idpc-rimsmods/wheel_spor_lg4.ydr uses 32.0 MiB of physical memory.
+[resources:idpc-rimsm] Asset idpc-rimsmods/wheel_spor_mle.ydr uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:idpc-rimsm] Asset idpc-rimsmods/wheel_spor_rnr.ydr uses 48.0 MiB of physical memory.
+[           resources] Started resource idpc-rimsmods (8 warnings)
+[           resources] Started resource idpc-sound-engine-v1
+[resources:ipdc-car-w] Warning: could not find client_script `vehicle_names.lua` (defined in __resource.lua:4)
+[resources:ipdc-car-w] Asset ipdc-car-whitelist/2015wbpolstang.ytd uses 51.5 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:ipdc-car-w] Asset ipdc-car-whitelist/2015wbpolstang_hi.ytd uses 26.5 MiB of physical memory.
+[resources:ipdc-car-w] Asset ipdc-car-whitelist/broncoems.yft uses 26.8 MiB of virtual memory.
+[resources:ipdc-car-w] Asset ipdc-car-whitelist/broncoems.ytd uses 111.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:ipdc-car-w] Asset ipdc-car-whitelist/broncoems_hi.yft uses 26.8 MiB of virtual memory.
+[resources:ipdc-car-w] Asset ipdc-car-whitelist/ems_bmw.yft uses 21.9 MiB of virtual memory.
+[resources:ipdc-car-w] Asset ipdc-car-whitelist/ems_bmw.ytd uses 45.0 MiB of physical memory.
+[resources:ipdc-car-w] Asset ipdc-car-whitelist/ems_bmw_hi.yft uses 21.9 MiB of virtual memory.
+[resources:ipdc-car-w] Asset ipdc-car-whitelist/emsnspeedo.ytd uses 32.0 MiB of physical memory.
+[resources:ipdc-car-w] Asset ipdc-car-whitelist/emsroamer.ytd uses 32.0 MiB of physical memory.
+[resources:ipdc-car-w] Asset ipdc-car-whitelist/emsskyline.ytd uses 21.0 MiB of physical memory.
+[resources:ipdc-car-w] Asset ipdc-car-whitelist/helicopterems.ytd uses 56.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:ipdc-car-w] Asset ipdc-car-whitelist/hp_p1.yft uses 24.0 MiB of virtual memory.
+[resources:ipdc-car-w] Asset ipdc-car-whitelist/hp_p1_hi.yft uses 24.0 MiB of virtual memory.
+[resources:ipdc-car-w] Asset ipdc-car-whitelist/pd_bmw.yft uses 21.9 MiB of virtual memory.
+[resources:ipdc-car-w] Asset ipdc-car-whitelist/pd_bmw.ytd uses 58.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:ipdc-car-w] Asset ipdc-car-whitelist/pd_bmw_hi.yft uses 21.9 MiB of virtual memory.
+[resources:ipdc-car-w] Asset ipdc-car-whitelist/poskyline.ytd uses 32.0 MiB of physical memory.
+[resources:ipdc-car-w] Asset ipdc-car-whitelist/qrv.yft uses 27.5 MiB of virtual memory.
+[resources:ipdc-car-w] Asset ipdc-car-whitelist/qrv.ytd uses 65.5 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:ipdc-car-w] Asset ipdc-car-whitelist/socharger.yft uses 23.6 MiB of virtual memory.
+[resources:ipdc-car-w] Asset ipdc-car-whitelist/socharger.ytd uses 39.0 MiB of physical memory.
+[resources:ipdc-car-w] Asset ipdc-car-whitelist/socharger_hi.yft uses 23.6 MiB of virtual memory.
+[resources:ipdc-car-w] Asset ipdc-car-whitelist/sodurango.yft uses 19.1 MiB of virtual memory.
+[resources:ipdc-car-w] Asset ipdc-car-whitelist/sodurango.ytd uses 26.5 MiB of physical memory.
+[resources:ipdc-car-w] Asset ipdc-car-whitelist/sodurango_hi.yft uses 19.1 MiB of virtual memory.
+[resources:ipdc-car-w] Asset ipdc-car-whitelist/soexplorer.yft uses 23.2 MiB of virtual memory.
+[resources:ipdc-car-w] Asset ipdc-car-whitelist/soexplorer.ytd uses 37.2 MiB of physical memory.
+[resources:ipdc-car-w] Asset ipdc-car-whitelist/soexplorer_hi.yft uses 23.2 MiB of virtual memory.
+[resources:ipdc-car-w] Asset ipdc-car-whitelist/sotaurus.ytd uses 27.5 MiB of physical memory.
+[resources:ipdc-car-w] Asset ipdc-car-whitelist/sotruck.yft uses 25.2 MiB of virtual memory.
+[resources:ipdc-car-w] Asset ipdc-car-whitelist/sotruck.ytd uses 35.4 MiB of physical memory.
+[resources:ipdc-car-w] Asset ipdc-car-whitelist/sotruck_hi.yft uses 25.2 MiB of virtual memory.
+[           resources] Started resource ipdc-car-whitelist (34 warnings)
+[  resources:side_mlo] Warning: could not find client_script `bob74_ipl/**/*.lua` (defined in fxmanifest.lua:54)
+[  resources:side_mlo] Warning: could not find file `stream/[pillbox]/hedwig_pillbox_tc.xml` (defined in fxmanifest.lua:31)
+[  resources:side_mlo] Warning: could not find file `stream/[pillbox]/downtown.ymt` (defined in fxmanifest.lua:32)
+[  resources:side_mlo] Warning: could not find file `stream/[pillbox]/pillbox_hill.ymt` (defined in fxmanifest.lua:33)
+[  resources:side_mlo] Warning: could not find file `interiorproxiesacademy.meta` (defined in fxmanifest.lua:61)
+[  resources:side_mlo] Warning: could not find file `stream/shellpropsv3.ytyp` (defined in fxmanifest.lua:64)
+[  resources:side_mlo] Warning: could not find file `stream/shellpropsv4.ytyp` (defined in fxmanifest.lua:65)
+[  resources:side_mlo] Warning: could not find file `stream/shellpropv2s.ytyp` (defined in fxmanifest.lua:66)
+[  resources:side_mlo] Warning: could not find file `stream/shellpropsv5.ytyp` (defined in fxmanifest.lua:67)
+[  resources:side_mlo] Warning: could not find file `stream/shellprops.ytyp` (defined in fxmanifest.lua:68)
+[  resources:side_mlo] Warning: could not find file `stream/shellpropsv7.ytyp` (defined in fxmanifest.lua:69)
+[  resources:side_mlo] Warning: could not find file `stream/shellpropsv8.ytyp` (defined in fxmanifest.lua:70)
+[  resources:side_mlo] Warning: could not find file `stream/shellpropsv10.ytyp` (defined in fxmanifest.lua:71)
+[  resources:side_mlo] Warning: could not find file `stream/shellpropsv9.ytyp` (defined in fxmanifest.lua:72)
+[  resources:side_mlo] Warning: could not find file `stream/**/*.meta` (defined in fxmanifest.lua:80)
+[  resources:side_mlo] Warning: could not find file `stream/**/*.xml` (defined in fxmanifest.lua:81)
+[resources:side_mlo:s] Asset side_mlo/baham_shell.ydr uses 22.5 MiB of physical memory.
+[resources:side_mlo:s] Asset side_mlo/ch1_01_tcmain.ydr uses 32.0 MiB of physical memory.
+[resources:side_mlo:s] Asset side_mlo/ch1_01_tcmain03.ydr uses 32.0 MiB of physical memory.
+[resources:side_mlo:s] Asset side_mlo/ch1_01_tcpool.ydr uses 36.0 MiB of physical memory.
+[resources:side_mlo:s] Asset side_mlo/cs6_04_prison+hi.ytd uses 21.2 MiB of physical memory.
+[resources:side_mlo:s] Asset side_mlo/cs6_04_prison.ytd uses 17.4 MiB of physical memory.
+[resources:side_mlo:s] Asset side_mlo/duxstin_drugshell.ydr uses 36.0 MiB of physical memory.
+[resources:side_mlo:s] Asset side_mlo/gabz_pillbox_textures_01.ytd uses 27.5 MiB of physical memory.
+[resources:side_mlo:s] Asset side_mlo/hospital_dge_dropper.ydr uses 26.0 MiB of virtual memory.
+[resources:side_mlo:s] Asset side_mlo/hospital_gta5rp_txd.ytd uses 26.6 MiB of physical memory.
+[resources:side_mlo:s] Asset side_mlo/police_textures.ytd uses 32.0 MiB of physical memory.
+[resources:side_mlo:s] Asset side_mlo/prison_cells_wall_details1_lower.ydr uses 18.0 MiB of physical memory.
+[resources:side_mlo:s] Asset side_mlo/prison_cells_wall_details1_upper.ydr uses 20.0 MiB of physical memory.
+[resources:side_mlo:s] Asset side_mlo/shmann_justice_textures.ytd uses 28.2 MiB of physical memory.
+[resources:side_mlo:s] Asset side_mlo/turbosaif_bennys_docks_txt.ytd uses 20.2 MiB of physical memory.
+[resources:side_mlo:s] Asset side_mlo/txd4.ytd uses 87.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:side_mlo:s] Asset side_mlo/uniqx_burgershot_tex.ytd uses 22.0 MiB of physical memory.
+[resources:side_mlo:s] Asset side_mlo/western_citymodel.ydr uses 32.0 MiB of physical memory.
+[resources:side_mlo:s] Asset side_mlo/western_citymodel.ydr uses 32.0 MiB of virtual memory.
+[resources:side_mlo:s] Asset side_mlo/zn_dib.ytd uses 25.0 MiB of physical memory.
+[           resources] Started resource side_mlo (36 warnings)
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ citizen-server-impl] server thread hitch warning: timer interval of 236 milliseconds
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[      script:oxmysql] [10.4.27-MariaDB] Database server connection established!
+[      script:monitor] [txAdmin][97m Sending resources list to txAdmin.
+[  script:es_extended] [INFO] ESX Legacy 1.10.5 initialized!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://wansmore-waheed-gvr9zm.users.cfx.re/
+[      script:esx_hud] [INFO] esx_hud: You are using the latest version!
+[ script:esx_property] [0m[INFO] Added Property into datastore_data table
+[ citizen-server-impl] sync thread hitch warning: timer interval of 115 milliseconds
+[      script:hardcap] Connecting: adeku
+[ citizen-server-impl] server thread hitch warning: timer interval of 183 milliseconds
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[      script:esx_hud] [ERROR] esx_hud: Setup your custom fuel resource at: client/vehicle/fuel.lua
+[  script:es_extended] [INFO] Player "Wansmore Waheed" has connected to the server. ID: 1
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] sync thread hitch warning: timer interval of 111 milliseconds
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[  script:es_extended] [INFO] Saved player "Wansmore Waheed"
+[ citizen-server-main] -> Quitting: SIGHUP received
